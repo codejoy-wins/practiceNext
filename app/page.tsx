@@ -33,7 +33,7 @@ export default function Home() {
       < Link href={'/something'} >Something?!</Link>
 
       < Image
-        src="/cyberelam.jpg"
+        src="/cyberElam.jpg"
         alt="Cyber Elam"
         // className="dark:invert"
         width={800}
