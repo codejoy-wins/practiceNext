@@ -13,15 +13,7 @@ export default async function AllCustomers(){
             <p>
                 These are all the customers... this text is from all-customers.tsx
             </p>
-            {allCustomers.map((cust, i) =>{
-                return(
-                <div>
-                    {/* {cust.name} for dataparttwo */}
-                    {cust}
-                    {/* cust for datapartthree, depends on the mapping */}
-                </div>
-            );
-            })}
+            
         </div>
         <div className='text-pink-500'>
             {/* this also works now, with the simple mapping  */}
