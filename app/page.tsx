@@ -1,11 +1,14 @@
 import Image from "next/image";
+import Link from "next/link";
+import MagicImage from "@/components/MagicImage";
+
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
+          Begin Here ? &nbsp;
           <code className="font-mono font-bold">app/page.tsx</code>
         </p>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
@@ -27,6 +30,56 @@ export default function Home() {
           </a>
         </div>
       </div>
+      < Link href={'/something'} >Something?!</Link>
+
+      < Image
+        src="/cyberelam.jpg"
+        alt="Cyber Elam"
+        // className="dark:invert"
+        width={800}
+        height={533}
+      />
+
+
+      < Link href={"https://www.maxjann.com"} ><p className="font-bold text-cyan-500">maxjann.com</p></Link>
+
+      <MagicImage src="/layla4.jpeg" alt="mage"/>
+
+
+
+      <iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/g197xdRZsW0?si=Kcc1T06jFR-OYaIc"
+  title="YouTube video player"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerPolicy="strict-origin-when-cross-origin"
+  allowFullScreen
+></iframe>
+
+<MagicImage src="/bh.png" alt="brook"/>
+
+
+      <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
+        <Image
+          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
+          src="/layla4.jpeg"
+          alt="Next.js Logo"
+          width={360}
+          height={74}
+          priority
+        />
+      </div>
+      <Image
+      src="https://pornpros.pornstar-scenes.com/Layla_Jenner-Midday_Hook_Up/Layla-Jenner-Porn-Pros-Midday-Hook-Up-2023-09-21-001.jpg"
+      alt="Picture of the author"
+      width={2000}
+      height={1000}
+      unoptimized
+    />
+      < Link href={"https://www.elamahpla.com"} ><p className="text-green-500">elamahpla.com</p></Link>
+
 
       <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
         <Image
