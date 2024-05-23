@@ -30,6 +30,8 @@ export default function Home() {
           </a>
         </div>
       </div>
+      < Link href={'/datareader'} >Data?!</Link>
+
       < Link href={'/something'} >Something?!</Link>
 
       < Image
@@ -43,7 +45,7 @@ export default function Home() {
 
       < Link href={"https://www.maxjann.com"} ><p className="font-bold text-cyan-500">maxjann.com</p></Link>
 
-      <MagicImage src="/layla4.jpeg" alt="mage"/>
+      <MagicImage src="/maid.jpeg" alt="mage"/>
 
 
 
