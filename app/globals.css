@@ -8,11 +8,16 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+/* only setting h1 to greenyellow if dark mode */
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+  }
+  h1{
+    color: greenyellow;
   }
 }
 
@@ -32,6 +37,7 @@ body {
   }
 }
 
-h1{
-  color: greenyellow;
+.pikachu{
+  display: inline-block;
+  border: 4px red solid;
 }

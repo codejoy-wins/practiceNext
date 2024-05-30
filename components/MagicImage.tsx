@@ -13,6 +13,7 @@ const MagicImage: React.FC<MagicImageProps> = ({ src, alt }) => {
 
   return (
     <>
+    <div className='pikachu'>
     <Link href="https://www.maxjann.com">
     <Image
       src={src}
@@ -22,6 +23,8 @@ const MagicImage: React.FC<MagicImageProps> = ({ src, alt }) => {
       // Add any other default props or styles here
     />
     </Link>
+    </div>
+
   </>
   );
 };

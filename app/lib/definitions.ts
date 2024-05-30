@@ -92,3 +92,11 @@ export type Customer = {
     amount: number;
     status: 'pending' | 'paid';
   };
+// content: string? or Text?
+  export type Comment = {
+    id: string;
+    name: string;
+    email: string;
+    image_url: string;
+    content: Text;
+  };
