@@ -10,6 +10,7 @@ import {
     Revenue,
     AllCustomersRaw,
     Customer,
+    Comment,
   } from './definitions';
 
 export async function fetchAllCustomers(){
@@ -18,12 +19,6 @@ export async function fetchAllCustomers(){
     FROM customers
     `;
     const datapartthree = data.rows.map((Customer) => Customer.name);
-    // this is the part that I don't understand. What is the ...customer, name:Customer.name part doing?
-    const dataparttwo = data.rows.map((Customer) => ({
-        ...Customer,
-        name: Customer.name,
-      }));
-      console.log(`data is ${data}`)
-      console.log(`data2 is ${dataparttwo}`);
+      console.log(`datapartthree is ${datapartthree}`);
       return datapartthree;
 }
